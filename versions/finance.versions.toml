@@ -1,0 +1,16 @@
+[versions]
+financeTheme = "1.0.1"
+financeNavigation = "1.0.0"
+financeLaunch = "1.0.0"
+financeOnboarding = "1.0.0"
+financeAuthentication = "1.0.0"
+
+[libraries]
+financeTheme = { group = "vn.finance.libs", name = "ui-theme", version.ref = "financeTheme" }
+financeLaunch = { group = "vn.finance.libs", name = "feature-launch", version.ref = "financeLaunch" }
+financeNavigation = { group = "vn.finance.libs", name = "navigation", version.ref = "financeNavigation" }
+financeOnboarding = { group = "vn.finance.libs", name = "feature-onboarding", version.ref = "financeOnboarding" }
+financeAuthentication = { group = "vn.finance.libs", name = "feature-authentication", version.ref = "financeAuthentication" }
+
+[plugins]
+
