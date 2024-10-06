@@ -1,6 +1,6 @@
 [versions]
 financeTheme = "1.0.1"
-financeNavigation = "1.0.0"
+financeNavigation = "1.0.1"
 financeLaunch = "1.0.0"
 financeOnboarding = "1.0.0"
 financeAuthentication = "1.0.0"
